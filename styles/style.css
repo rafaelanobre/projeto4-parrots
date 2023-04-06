@@ -10,6 +10,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 52px;
     margin-bottom: 150px;
@@ -20,6 +21,20 @@ h1{
     color: #75B79E;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 55px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    width: 117px;
+    height: 146px;
+    background-color: A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
 }
 
 
