@@ -43,6 +43,7 @@ h1{
     width: 200px;
     height: 250px;
     position: relative;
+    margin-bottom: 30px;
 }
 .card img{
     width: 80%;
@@ -89,7 +90,14 @@ h1{
         width: 70%;
         margin-top: 45px;
         margin-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+    .card{
+      width: 100px;
+      height: 125px;
+  }
 
     h1{
         font-size: 36px;

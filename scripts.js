@@ -191,7 +191,7 @@ function winGame(){
 
 function restartGame(){
     //prompt quer reiniciar o jogo
-    var restart = prompt("Gostaria de jogar de novo? Responda sim ou não");
+    var restart = prompt("Você gostaria de reiniciar a partida? (sim ou não)");
 
     //se a reposta for sim
     //chamar a função startGame
